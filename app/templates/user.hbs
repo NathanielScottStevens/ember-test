@@ -6,3 +6,8 @@
       <div>Email: {{user.email}}</div>
   </div>
 {{/each}}
+
+<h2>New User</h2>
+<div>Name: {{input type="text" value=name}}</div>
+<div>Email: {{input type="text" value=email}}</div>
+<button {{action 'save'}}>Save</button>
